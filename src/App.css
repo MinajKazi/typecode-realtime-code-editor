@@ -1,5 +1,5 @@
 .homePageWrapper {
-    background: #f3a950;
+    background: #02072b;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -8,23 +8,27 @@
 }
 
 .formWrapper {
-    border: 2px solid rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: #161b21;
+    background: #050b38;
     padding: 20px;
-    border-radius: 10px;
     width: 400px;
     max-width: 90%;
+    transition: all 1s;
+}
+.formWrapper:hover{
+    border-radius: 4px;
+    box-shadow: .01px .01px 30px 1px rgb(0, 0, 0);
 }
 
 .formWrapper img{
-    width: 50%;
+    width: 40%;
+    height: 40%;
 }
 
 .copyRight{
-    color: #161b21;
+    color: #f3a950;
 }
 
 footer {
@@ -33,7 +37,7 @@ footer {
 }
 
 footer a {
-    color: #ffffff;
+    color: #f3a950;
 }
 
 .inputGroup {
@@ -82,8 +86,8 @@ footer a {
 
 .joinBtn:hover,
 .leaveBtn:hover {
-    background: #161b21;
-    color: #eee;
+    background: #eee;
+    color: #472e00f8;
 }
 
 .createInfo {
@@ -99,8 +103,8 @@ footer a {
 }
 
 footer a:hover {
-    color: #161b21;
-    border-color: #161b21;
+    color: #eee;
+    border-color: #eee;
 }
 
 .createNewBtn:hover {
@@ -114,7 +118,7 @@ footer a:hover {
 }
 
 .aside {
-    background: #161b21;
+    background: #02072b;
     padding: 16px;
     color: #fff;
     display: flex;
